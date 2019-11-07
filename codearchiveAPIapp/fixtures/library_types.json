@@ -1,0 +1,23 @@
+[
+    {
+      "model": "codearchiveAPIapp.LibraryType",
+      "pk": 1,
+      "fields": {
+        "type": "Language"
+      }
+    },
+    {
+        "model": "codearchiveAPIapp.LibraryType",
+        "pk": 2,
+        "fields": {
+          "type": "Tool"
+        }
+      },
+      {
+        "model": "codearchiveAPIapp.LibraryType",
+        "pk": 3,
+        "fields": {
+          "type": "Sub-Language"
+        }
+      }
+  ]

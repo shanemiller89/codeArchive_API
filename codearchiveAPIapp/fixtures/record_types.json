@@ -1,0 +1,16 @@
+[
+    {
+      "model": "codearchiveAPIapp.RecordType",
+      "pk": 1,
+      "fields": {
+        "type": "Note"
+      }
+    },
+    {
+        "model": "codearchiveAPIapp.RecordType",
+        "pk": 2,
+        "fields": {
+          "type": "Code Snippet"
+        }
+      }
+  ]

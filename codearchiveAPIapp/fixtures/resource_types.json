@@ -1,0 +1,16 @@
+[
+    {
+      "model": "codearchiveAPIapp.ResourceType",
+      "pk": 1,
+      "fields": {
+        "type": "Bookmark"
+      }
+    },
+    {
+        "model": "codearchiveAPIapp.ResourceType",
+        "pk": 2,
+        "fields": {
+          "type": "Video"
+        }
+      }
+  ]

@@ -1,0 +1,16 @@
+[
+    {
+      "model": "codearchiveAPIapp.LogType",
+      "pk": 1,
+      "fields": {
+        "type": "Issue"
+      }
+    },
+    {
+        "model": "codearchiveAPIapp.LogType",
+        "pk": 2,
+        "fields": {
+          "type": "Code"
+        }
+      }
+  ]
