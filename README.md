@@ -17,7 +17,7 @@ Enter these commands:
 ```
 cd codearchive_API
 python -m venv codearchiveEnv
-source ./codearchive/bin/activate
+source ./codearchiveEnv/bin/activate
 ```
 Then run 
 
