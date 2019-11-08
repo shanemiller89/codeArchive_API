@@ -2,7 +2,7 @@
 
 Rest API for codeArchive
 
-*** BEFORE YOU START, please make sure you have Python 3.7 or greater installed.
+***BEFORE YOU START***, please make sure you have Python 3.7 or greater installed.
 
 Clone Client side application and follow instructions. [Here](https://github.com/shanemiller89/codeArchive)
 
