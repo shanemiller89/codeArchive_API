@@ -18,7 +18,7 @@ class Record(models.Model):
     language = models.CharField(max_length=50, blank=True)
     order = models.IntegerField()
     record_type = models.ForeignKey(RecordType, on_delete=models.PROTECT)
-    archive = models.ForeignKey(Archive, on_delete=models.PROTECT, related_name="records")
+    archive = models.ForeignKey(Archive, on_delete=models.CASCADE, related_name="records")
 
     class Meta:
         ordering = ["order"]
