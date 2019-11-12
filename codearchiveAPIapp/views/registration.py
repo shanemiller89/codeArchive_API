@@ -25,7 +25,7 @@ def login_user(request):
     if request.method == 'POST':
 
         # Use the built-in authenticate method to verify
-        username = req_body['username']
+        username = req_body['username'].lower()
         password = req_body['password']
         authenticated_user = authenticate(username=username, password=password)
 
@@ -66,11 +66,11 @@ def register_user(request):
     # Create a new user by invoking the `create_user` helper method
     # on Django's built-in User model
     new_user = User.objects.create_user(
-        username=req_body['username'],
+        username=req_body['username'].lower(),
         password=req_body['password'],
         first_name=req_body['first_name'],
         last_name=req_body['last_name'],
-        email=req_body['email']
+        email=req_body['email'].lower()
     )
         
 
